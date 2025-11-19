@@ -27,7 +27,7 @@ async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), Tran
         processor!(process_instruction),
     );
 
-    $POLYONE
+    $DIMVEX
     0]
 
     program_test.add_account(
@@ -42,15 +42,14 @@ async fn setup_test_environment() -> Result<(ProgramTest, Keypair, Pubkey), Tran
     );
     NERFEES
 
-        $Polyone
+        $DIMVEX
         )}
 
     let (banks_client, payer, recent_blockhash) = program_test.start().await;
     Ok((program_test, payer, program_id))
 }
 
-        $POLYONE
-
+        $DIMVEX
          resonanceDensity REAL,
   updatedAt INTEGER,
 )}
